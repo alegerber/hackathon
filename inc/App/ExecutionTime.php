@@ -22,7 +22,7 @@ class ExecutionTime {
     global $wpdb;
 
     $wpdb->insert(
-        'mariadb_execution_time',
+        'wp_mariadb_execution_time',
         [
             'seconds' => $timeIntervall,
         ],
